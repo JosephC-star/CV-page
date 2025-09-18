@@ -1,0 +1,45 @@
+Profile picture
+
+Email: Dacleezy05@gmail.com
+
+About Me
+underline
+Aspiring software developer with a passion for learning. I graduated with an associte's degree in IT in January of 2025, currently working toward a certificate for software devlopment from Springboard.
+
+Education
+
+    Springboard-Software Developer Certificate
+    Southern New Hampshire University-Associte degree in IT
+    Searcy High School-High School Diploma
+
+Skills
+
+Languages and Technology
+
+    Html
+    CSS
+    Javascript
+    Linux-Ubuntu
+
+Other
+
+    Git
+    Github
+    Command line
+
+Awards
+
+    Deans list 2024
+    Made Honor Roll entire time in college
+    Maintained 3.5 or better gpa
+
+Interests
+
+    Cats-link to picture of a cat
+    Path of Exile 2-link to game page website
+    John Wick-link to trailer on youtube
+
+Contact Me
+
+    LinkedIn
+    Github

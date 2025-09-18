@@ -1,0 +1,22 @@
+Profile picture
+
+Email: Dacleezy05@gmail.com
+
+About Me
+underline
+Aspiring software developer with a passion for learning. I graduated with an associte's degree in IT in January of 2025, currently working toward a certificate for software devlopment from Springboard.
+
+Education
+
+    Springboard-Software Developer Certificate
+    Southern New Hampshire University-Associte degree in IT
+    Searcy High School-High School Diploma
+
+Skills
+
+Languages and Technology
+
+    Html
+    CSS
+    Javascript
+    Linux-Ubuntu
