@@ -1,9 +1,21 @@
 body{
-    background-color: aquamarine;
+    background-color:rgb(0, 238, 255);
+    font-family: Michroma;
+
 }
 h1{
-    color: blue;
+    color: black;
+    
+    
+    
 }
 h2{
-    color: blueviolet;
+
+}
+p {
+    text-indent: 50px;
+}
+
+form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
