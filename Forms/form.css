@@ -1,21 +1,33 @@
 body{
     background-color:rgb(0, 238, 255);
-    font-family: Michroma;
+    font-family: Michroma; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 h1{
     color: black;
-    
+    text-shadow: 3px 3px 2px black;
     
     
 }
 h2{
-
+    text-shadow: 2px 2px 2px black;
 }
 p {
-    text-indent: 50px;
+    text-indent: 50px ;
 }
 
 form{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* add shadows behind h1 and h2 */
+
+button :hover{
+    color: green;
+}
+img{
+    border: black solid 5px;
+}
+input{
+    
 }
