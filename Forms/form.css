@@ -7,12 +7,26 @@ body{
 h1{
     color: black;
     text-shadow: 3px 3px 2px black;
+    border: 2px;
+    width: 100%;
+    border-style: double;
+    border-width: 3px;
+    padding: 2px;
     
     
 }
 h2{
     text-shadow: 2px 2px 2px black;
 }
+#h2skills{
+    position: relative;
+    left: 60%;
+}
+#lt{
+    position: relative;
+    left: 60%;
+}
+
 p {
     text-indent: 50px ;
 }
@@ -28,6 +42,33 @@ button :hover{
 img{
     border: black solid 5px;
 }
-input{
+#Skills{
+    position: relative;
+    left: 60%;
+    border: 3px solid black;
+    width: 40%;
+    height: 100px;
     
+    background-color: brown;
+}
+.table{
+    border-width: black solid 10px ;
+    width: 5%;
+    height: 5%;
+    background-color: white;
+    
+    
+}
+ .top {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#nav {
+    background-color: white;
+    position: sticky;
+    top: 20px;
+    margin-top: 0;
 }
