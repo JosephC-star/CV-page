@@ -59,7 +59,7 @@ img{
 }
 .table{
     position: relative;
-    border-width: black  10px ;
+    border-width: black  8px ;
     width: 10px;
     height: 10px;
     background-color: white;
@@ -97,7 +97,7 @@ img{
 
 .award_list{
     position: relative;
-    border: 3px solid;
+    border: 2px solid;
     width: 350px;
     height: 100px;
     background-color: wheat;
@@ -116,9 +116,30 @@ img{
     
  }
 
-.hover.Education{
+.contacts{
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
     
 }
+.cat-pic{
+    height: 350px;
+    
+    position: absolute;
+    right: 5%;
+
+}
+
 
 
 
