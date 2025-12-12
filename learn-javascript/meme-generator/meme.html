@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h1>Meme Me Up!!</h1>
+    <form id="meme-form">
+      <label for="image_url">Image URL:</label>
+      <input
+        id="image-url"
+        type="url"
+        placeholder="Enter Image URL"
+        name="image-url"
+        required
+      /><br />
+      <label for="top-text">Top Text:</label>
+      <input
+        id="top-text"
+        type="text"
+        placeholder="Top Text"
+        name="image"
+        maxlength=""
+        minlength="3"
+        required
+      /><br />
+      <label for="bottom-text">Bottom Text:</label>
+      <input
+        id="bottom-text"
+        type="text"
+        placeholder="Bottom Text"
+        name="image"
+        maxlength=""
+        minlength="3"
+        required
+      /><br />
+      <button id="submit-meme" type="submit" value="Submit">Submit</button>
+    </form>
+    <div id="meme-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
