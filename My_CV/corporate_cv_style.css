@@ -1,0 +1,280 @@
+:root {
+  --bg: #f6f8fb;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: rgba(15, 23, 42, 0.72);
+  --border: rgba(15, 23, 42, 0.12);
+  --accent: #1d4ed8;
+  --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+}
+
+body.dark {
+  --bg: #0b1220;
+  --card: rgba(255, 255, 255, 0.06);
+  --text: #e8eefc;
+  --muted: rgba(232, 238, 252, 0.72);
+  --border: rgba(255, 255, 255, 0.12);
+  --accent: #7dd3fc;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(246, 248, 251, 0.85);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+body.dark .header {
+  background: rgba(11, 18, 32, 0.65);
+}
+
+.header__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.name {
+  margin: 0;
+  font-family: Michroma, Inter, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.4px;
+}
+
+.subtitle {
+  margin: 6px 0 8px;
+  color: var(--muted);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  color: var(--muted);
+}
+
+.header__actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.btn {
+  border: 1px solid var(--border);
+  background: var(--accent);
+  color: white;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text);
+}
+
+.btn--ghost:hover {
+  border-color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.75fr 1fr;
+  gap: 18px;
+  padding-top: 18px;
+  padding-bottom: 28px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  font-family: Michroma, Inter, sans-serif;
+}
+
+h3 {
+  margin: 14px 0 8px;
+  font-size: 1rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.item {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.item__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.small {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.small:hover {
+  text-decoration: underline;
+}
+
+.bullets {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.two-col {
+  display: grid;
+  gap: 12px;
+}
+
+.edu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.badge {
+  font-size: 0.82rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.badge--soft {
+  background: rgba(29, 78, 216, 0.08);
+  border-color: rgba(29, 78, 216, 0.25);
+}
+
+.stack {
+  display: grid;
+  gap: 18px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.form label {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+.form input,
+.form textarea {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px;
+  background: transparent;
+  color: var(--text);
+  outline: none;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: var(--accent);
+}
+
+.formMsg {
+  margin: 10px 0 0;
+  min-height: 20px;
+  color: var(--muted);
+}
+
+.hint {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
